@@ -38,10 +38,6 @@ A model trained with differential privacy for privacy-preserving predictions.
 - Model 2: Accuracy - 64.8%
 - Model 3: Accuracy - 55.4%
 
-### Confusion Matrix
-
-[Insert confusion matrix here]
-
 ## Conclusion
 
 These models provide insights into the diagnosis of diseases from X-ray images, with Model 2 showing the best performance.
