@@ -10,30 +10,38 @@ To get started, first install the required Python libraries:
 pip install opacus
 pip install diffprivlib
 pip install --upgrade tensorflow-privacy
+```
 
-#Models
-##Model 1: Binary Classification Neural Network
+## Models
+
+### Model 1: Binary Classification Neural Network
+
 This model predicts the presence of diseases using follow-up, age, gender, and other factors.
 
-##Model 2: Convolutional Neural Network (CNN)
+### Model 2: Convolutional Neural Network (CNN)
+
 This CNN model uses X-ray images to predict diseases.
 
-##Model 3: VGG16 with Additional Layers
+### Model 3: VGG16 with Additional Layers
+
 A modified VGG16 model with additional layers for improved performance.
 
-##Model 4: Differential Privacy Model
+### Model 4: Differential Privacy Model
+
 A model trained with differential privacy for privacy-preserving predictions.
 
-Evaluation
-Model Performance
-Model 1: Accuracy - 57.2%
-Model 2: Accuracy - 64.8%
-Model 3: Accuracy - 55.4%
-Confusion Matrix
+## Evaluation
 
+### Model Performance
 
+- Model 1: Accuracy - 57.2%
+- Model 2: Accuracy - 64.8%
+- Model 3: Accuracy - 55.4%
 
-Conclusion
+### Confusion Matrix
+
+[Insert confusion matrix here]
+
+## Conclusion
+
 These models provide insights into the diagnosis of diseases from X-ray images, with Model 2 showing the best performance.
-
-
