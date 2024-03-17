@@ -1,1 +1,39 @@
-"\n\n# README for Chest X-ray Disease Detection Project\n\nThis project utilizes a curated subset of the ChestX-ray8 dataset, which contains 112,120 frontal-view chest X-ray images from 30,805 unique patients. The subset, consisting of approximately 5000 images, has been intelligently partitioned into three sets: a training set with around 3,300 images, a validation set containing 1,200 images, and a test set comprising 500 images.\n\nThe dataset has been annotated with text-mined labels for 14 common thoracic pathologies, and for the specific needs of this project, a meticulous selection process resulted in a subset with labels converted to binary format. In this representation, a label of '1' signifies the presence of a thorax disease, while '0' denotes the absence of any pathology.\n\nThe project also includes data visualization, correlation analysis, and validation and test data preparation steps. The ultimate goal is to train a deep learning model for accurate disease detection in chest X-ray images.\n\nFor access to the original ChestX-ray8 dataset, please refer to the official repository: https://nihcc.app.box.com/v/ChestXray-NIHCC."
+# X-Ray Image Analysis
+
+This repository contains code for analyzing X-ray images to predict the presence of diseases using machine learning models.
+
+## Setup
+
+To get started, first install the required Python libraries:
+
+```bash
+pip install opacus
+pip install diffprivlib
+pip install --upgrade tensorflow-privacy
+
+Models
+Model 1: Binary Classification Neural Network
+This model predicts the presence of diseases using follow-up, age, gender, and other factors.
+
+Model 2: Convolutional Neural Network (CNN)
+This CNN model uses X-ray images to predict diseases.
+
+Model 3: VGG16 with Additional Layers
+A modified VGG16 model with additional layers for improved performance.
+
+Model 4: Differential Privacy Model
+A model trained with differential privacy for privacy-preserving predictions.
+
+Evaluation
+Model Performance
+Model 1: Accuracy - 57.2%
+Model 2: Accuracy - 64.8%
+Model 3: Accuracy - 55.4%
+Confusion Matrix
+
+
+
+Conclusion
+These models provide insights into the diagnosis of diseases from X-ray images, with Model 2 showing the best performance.
+
+
