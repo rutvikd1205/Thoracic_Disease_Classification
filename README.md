@@ -11,17 +11,17 @@ pip install opacus
 pip install diffprivlib
 pip install --upgrade tensorflow-privacy
 
-Models
-Model 1: Binary Classification Neural Network
+#Models
+##Model 1: Binary Classification Neural Network
 This model predicts the presence of diseases using follow-up, age, gender, and other factors.
 
-Model 2: Convolutional Neural Network (CNN)
+##Model 2: Convolutional Neural Network (CNN)
 This CNN model uses X-ray images to predict diseases.
 
-Model 3: VGG16 with Additional Layers
+##Model 3: VGG16 with Additional Layers
 A modified VGG16 model with additional layers for improved performance.
 
-Model 4: Differential Privacy Model
+##Model 4: Differential Privacy Model
 A model trained with differential privacy for privacy-preserving predictions.
 
 Evaluation
